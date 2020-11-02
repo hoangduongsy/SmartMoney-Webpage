@@ -8299,9 +8299,12 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-top: 35px;
@@ -8319,6 +8322,7 @@ button {
 
 .flexbox__wrapper .card__box {
   background-color: white;
+  border: solid 1px whitesmoke;
 }
 
 /* Section event */
@@ -8334,10 +8338,14 @@ button {
   margin-bottom: 95px;
 }
 
-.event .left-banner .event_info {
+.event .left-banner {
   position: relative;
-  left: 230px;
-  bottom: 200px;
+}
+
+.event .left-banner .event_info {
+  position: absolute;
+  left: 350px;
+  bottom: 60px;
 }
 
 .event .left-banner .event_info .info_date {
@@ -8345,7 +8353,7 @@ button {
 }
 
 .event .left-banner .event_info .btn {
-  width: 30%;
+  width: 70%;
   background: -webkit-gradient(linear, left top, right top, from(#c9933c), to(#d9b076));
   background: linear-gradient(to right, #c9933c, #d9b076);
   color: white;
@@ -8425,14 +8433,19 @@ button {
 }
 
 /* Section emotion */
-.emotion__slide .reader_feeling {
+.emotion__slide {
   position: relative;
+}
+
+.emotion__slide .reader_feeling {
+  position: absolute;
   text-align: center;
-  top: 320px;
+  bottom: 100px;
 }
 
 .emotion__slide .text-md-center {
   margin-bottom: 20px;
+  margin-left: 400px;
 }
 
 .emotion__slide .slick-dots {

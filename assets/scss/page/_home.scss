@@ -431,7 +431,8 @@ $color-white: white;
 }
   .flexbox__wrapper {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
     margin-top: 35px;
     .break {
@@ -444,6 +445,7 @@ $color-white: white;
     }
     .card__box {
       background-color: white;
+      border: solid 1px whitesmoke;
     }
   }
 
@@ -454,15 +456,16 @@ $color-white: white;
   justify-content: flex-end;
   margin-bottom: 95px;
   .left-banner {
+    position: relative;
     .event_info {
-      position: relative;
-      left: 230px;
-      bottom: 200px;
+      position: absolute;
+      left: 350px;
+      bottom: 60px;
       .info_date {
         color: rgb(217, 176, 118);
       }
       .btn {
-        width: 30%;
+        width: 70%;
         background: linear-gradient(to right, rgb(201, 147, 60) , rgb(217, 176, 118));
         color: white;
         font-size: 13px;
@@ -523,13 +526,15 @@ $color-white: white;
 
 /* Section emotion */
 .emotion__slide {
+  position: relative;
   .reader_feeling {
-    position: relative; 
+    position: absolute; 
     text-align: center;
-    top: 320px;
+    bottom: 100px;
   }
   .text-md-center {
     margin-bottom: 20px;
+    margin-left: 400px;
   }
   .slick-dots {
     bottom: 60px !important;
