@@ -54,7 +54,7 @@ $(document).ready(function(){
       mobileFirst: true,
       slidesToShow: 1,
       slidesToScroll: 1,
-      autoplay: false,
+      autoplay: true,
       pauseOnDotsHover:true,
       autoplaySpeed:1200,
       dots: true,

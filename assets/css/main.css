@@ -7599,6 +7599,7 @@ button {
 }
 
 .footer-area {
+  background-color: #f8f8f8;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8222,7 +8223,7 @@ button {
 
 .home-book .book-box p {
   font-size: 11px;
-  color: #ffc700;
+  color: #d4ac6f;
   padding-left: 15px;
   padding-bottom: 20px;
 }
