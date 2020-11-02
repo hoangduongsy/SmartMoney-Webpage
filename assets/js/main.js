@@ -109,7 +109,7 @@ $(document).ready(function(){
       mobileFirst: true,
       slidesToShow: 1,
       slidesToScroll: 1,
-      autoplay: true,
+      // autoplay: true,
       pauseOnDotsHover:true,
       autoplaySpeed:300,
       dots: true,
@@ -117,7 +117,3 @@ $(document).ready(function(){
       infinite: true
   });
 });
-
-//   $('#pause').click(function() {
-// 	$('.banner-slide').slick('slickPause');
-// });
