@@ -7599,7 +7599,6 @@ button {
 }
 
 .footer-area {
-  background-color: #f8f8f8;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -7825,8 +7824,15 @@ button {
 
 .Navbar__Link:hover {
   display: inline-block;
-  border-bottom: solid 3px orange;
+  border-bottom: solid 3px #d4ac6f;
   padding-bottom: 20px;
+}
+
+/* Section banner slide */
+.banner-slide .slick-dots {
+  bottom: 60px !important;
+  left: 200px !important;
+  text-align: left !important;
 }
 
 /* Section about us */
@@ -7843,6 +7849,26 @@ button {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  padding: 0px 100px 0px 200px;
+}
+
+.flex-container .left-block .about_us_title {
+  padding-bottom: 10px;
+}
+
+.flex-container .left-block .straight_line {
+  width: 810px;
+  margin-left: -250px;
+}
+
+.flex-container .left-block .straight_line .line_yellow {
+  width: 15%;
+  margin-left: 255px;
+}
+
+.flex-container .left-block .about_us_info {
+  padding-top: 50px;
+  font-weight: bold;
 }
 
 .flex-container .left-block .btn {
@@ -7998,20 +8024,6 @@ button {
 }
 
 /* Section course menu bar */
-.course__bar {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #404040;
-  height: 12.5rem;
-}
-
 .nav-course-online {
   height: 150px;
   background-color: #404040;
@@ -8319,6 +8331,34 @@ button {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  margin-bottom: 95px;
+}
+
+.event .left-banner .event_info {
+  position: relative;
+  left: 230px;
+  bottom: 200px;
+}
+
+.event .left-banner .event_info .info_date {
+  color: #d9b076;
+}
+
+.event .left-banner .event_info .btn {
+  width: 30%;
+  background: -webkit-gradient(linear, left top, right top, from(#c9933c), to(#d9b076));
+  background: linear-gradient(to right, #c9933c, #d9b076);
+  color: white;
+  font-size: 13px;
+}
+
+.event .right-event {
+  padding-left: 70px;
+  padding-top: 50px;
+}
+
+.event .right-event .event_title {
+  padding-bottom: 10px;
 }
 
 .event .card__event {
@@ -8326,6 +8366,29 @@ button {
 }
 
 /* Section news */
+.news_title {
+  padding-left: 160px;
+  padding-bottom: 10px;
+}
+
+.straight_line {
+  position: relative;
+  width: 1150px;
+  height: 3px;
+  background-color: #e8e8e8;
+  margin-left: 170px;
+}
+
+.straight_line .line_yellow {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background-color: #d4ac6f;
+  position: absolute;
+  height: 100%;
+  width: 10%;
+  left: 0;
+}
+
 .news {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8344,19 +8407,53 @@ button {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 10px 30px 10px 0px;
 }
 
-/* Section emotion */
-.emotion__slide .straight_line {
-  position: relative;
-  width: 1000px;
-  height: 3px;
-  background-color: #6F6F6F;
-  margin-left: 500px;
+.news .card__news .card__news__1 {
+  padding-right: 30px;
 }
 
-.emotion__slide .straight_line .line-white {
+.news .card__news .card__news__2 {
+  padding-right: 30px;
+}
+
+/* Section emotion */
+.emotion__slide .reader_feeling {
+  position: relative;
+  text-align: center;
+  top: 320px;
+}
+
+.emotion__slide .text-md-center {
+  margin-bottom: 20px;
+}
+
+.emotion__slide .slick-dots {
+  bottom: 60px !important;
+  text-align: center !important;
+}
+
+.emotion__slide .straight_line {
+  position: relative;
+  width: 900px;
+  height: 3px;
+  background-color: #6F6F6F;
+  margin-left: 300px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.emotion__slide .straight_line .line_white {
+  width: 20%;
+  left: 390px;
   position: relative;
   height: 3px;
   background-color: #e8e8e8;
@@ -8392,6 +8489,13 @@ button {
   }
   .event .left-banner {
     width: 100%;
+  }
+}
+
+/* Responsive new section */
+@media only screen and (max-width: 768px) {
+  .news_title {
+    padding-left: none;
   }
 }
 /*# sourceMappingURL=main.css.map */

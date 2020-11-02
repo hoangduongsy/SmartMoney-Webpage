@@ -27,7 +27,7 @@
     <!-- Section header -->
 
       <div class="Navbar">
-        <div class="Navbar__Link Navbar__Link-brand">
+        <div class="Link Navbar__Link-brand">
            <img src="assets/img/smartmoney-logo.png" alt="">
          </div>
         <!-- Nav bar -->
@@ -76,13 +76,13 @@
 
     <!--Section about us-->
     <div class="flex-container">
-        <div style="padding: 0px 100px 0px 200px;" class="left-block">
+        <div class="left-block">
             <article>
-                <h1>Về chúng tôi</h1>
+                <h1 class="about_us_title">Về chúng tôi</h1>
                 <div class="straight_line">
                   <div class="line_yellow"></div>
               </div>
-            <p style="padding-top: 50px; font-weight: bold;">Lorem ipsum dolor sit emet, consecteur adip-iscing elit, sed do eiusmod tempor 
+            <p class="about_us_info">Lorem ipsum dolor sit emet, consecteur adip-iscing elit, sed do eiusmod tempor 
             incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo vierra maceanas...</p>
             <br>
             <p style="font-size: small;">Lorem ipsum dolor sit emet, consecteur adip-iscing elit, sed do eiusmod tempor 
@@ -98,35 +98,6 @@
     </div>
 
     <!--Section background slider-->
-  <!-- <div style="position: relative;"  class="background-slide">
-    <div>
-      <img src="assets/img/bacground-slider.png" alt="background-slider">
-    </div>
-    <div>
-      <img src="assets/img/bacground-slider.png" alt="bkacground-slider">
-    </div>
-    <div>
-      <img src="assets/img/bacground-slider.png" alt="background-slider">
-    </div>
-    <div>
-      <img src="assets/img/bacground-slider.png" alt="background-slider">
-    </div>
-    <div>
-      <img src="assets/img/bacground-slider.png" alt="background-slider">
-    </div>
-    <div>
-      <img src="assets/img/bacground-slider.png" alt="background-slider">
-    </div>
-  </div> -->
-  
-  <!--Background slide inner content-->
-  <!-- <div class="inner-content">
-    <h1 style="padding-top: 50px; padding-right: 100px;" class="text-white">Khóa học & sự kiện</h1><br>
-    <p style="padding-right:300px;" class="text-white small">Lorem ipsum dolor sit emet, consecteur adip-iscing elit, sed do eiusmod tempor 
-      incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo vierra maceanas accumsan lacus vel facilisis</p>
-      <button class="btn__slider text-white text-uppercase btn">Mua khóa học</button>
-    </div> -->
-
     <section class="home-courses-events">
       <div class="courses-events">
   
@@ -327,7 +298,7 @@
 </div>
 
 <!--Section courses-->
-<div style="background-color: rgb(248,248,248);">
+<div>
   <div class="list-courses-online container" style="margin-bottom: 95px;">
     <div class="flex-courses-wrap">
         <h1>Khoá học online</h1>
@@ -340,9 +311,9 @@
         </div>
     </div>
     
-    <!-- <div class="line-book">
+    <div class="line-book">
       <div class="line-yellow"></div>
-  </div> -->
+  </div>
   
   <div class="flexbox__wrapper">
     <div>
@@ -463,17 +434,26 @@
   </div>
   <br>
   <div style="float: right;">
-    <a class="font-weight-bold" style="color: black;" href="#">Xem tất cả</a><i style="color: orange;" class="fas fa-angle-right"></i>
+    <p class="font-weight-bold">Xem tất cả <i style="color: orange;" class="fas fa-angle-right"></i></p>
   </div>
 </div>
 <br>
 
 <!--Section event-->
-<div class="event" style="margin-bottom: 95px;">
-  <div class="left-banner"><img src="assets/img/timeline-banner.png" alt="timeline-banner"></div>
-  <div style="padding-left: 70px; padding-top: 50px;" class="right-event">
+<div class="event">
+  <div class="left-banner">
+    <img src="assets/img/timeline-banner.png" alt="timeline-banner">
+    <div class="event_info">
+      <p class="info_date">15 tháng 12, 2019</p> <br>
+       <p class="text-white"> It S Classified How To Ultilize <br> Free ClassifiedAd Sites To Boost <br> Bussiness
+      </p>
+      <button class="text-uppercase btn">Đăng Ký Tham Gia</button>
+    </div>
+  </div>
+  
+  <div class="right-event">
     <div style="display: flex; flex-direction: column; align-self: center;" class="card__event">
-      <h1>Sự kiện offline</h1>
+      <h1 class="event_title">Sự kiện offline</h1>
 
       <div class="line-book">
         <div class="line-yellow"></div>
@@ -508,11 +488,15 @@
 
 <!--Section news-->
 <div>
-  <h1>Tin tức</h1>
+  <h1 class="news_title">Tin tức</h1>
+  <div class="straight_line">
+    <div class="line_yellow"></div>
+</div>
   <div class="news">
     <div>
-      <div style="display: flex; align-items: center; justify-content: center;" class="card__news">
-        <div style="padding-right: 30px;">
+      <div class="card__news">
+
+        <div class="card__news__1">
           <img src="assets/img/news-pic1.png" alt="news-pic1">
           <div style="display:flex;">
             <div>
@@ -527,7 +511,7 @@
           </div>
         </div>
 
-        <div style="padding-right: 30px;">
+        <div class="card__news__2">
           <img src="assets/img/news-pic2.png" alt="news-pic1">
           <div style="display:flex;">
             <div>
@@ -542,7 +526,7 @@
           </div>
         </div>
 
-        <div style="padding-right: 30px;">
+        <div class="card__news__3" style="padding-right: 30px;">
           <img src="assets/img/news-pic3.png" alt="news-pic1">
           <div style="display:flex;">
             <div>
@@ -557,7 +541,7 @@
           </div>
         </div>
 
-        <div>
+        <div class="card__news__4">
           <img src="assets/img/news-pic4.png" alt="news-pic1">
           <div style="display:flex;">
             <div>
@@ -582,7 +566,7 @@
   
   <div>
 
-    <div style="position: relative; text-align: center; top: 250px;">
+    <div class="reader_feeling">
       <h1 class="text-md-center text-white">Cảm nhận độc giả</h1>
       <div class="straight_line">
         <div class="line_white"></div>
@@ -592,73 +576,82 @@
           gợi mở cho người đọc đưa ra ý tưởng xử lý từ chối hay<br>Khi biết nguyên nhân, bản chất của lời từ chối rồi nên tự tin hơn khi giải quyết<br><br>
           <p class="text-white" style="font-size: large;">Nguyễn Duy Khánh</p>
           <p class="small" style="color: rgb(218,178,121);">Trưởng nhóm kinh doạnh tại Manulife (quản lý gần 100 nhân viên) </p>
-
         </p>
     </div>
     <img src="assets/img/aboutus-banner.png" alt="aboutus-banner">
    
   </div>
   <div>
-    <div style="position: relative; text-align: center; top: 250px;">
+    <div class="reader_feeling">
       <h1 class="text-md-center text-white">Cảm nhận độc giả</h1>
+      <div class="straight_line">
+        <div class="line_white"></div>
+    </div>
         <h4 style="color:rgb(218,178,121);" class="text-md-center">Cảm nhận về sản phẩm Sổ Tay Bán Hàng</h4>
         <p class="text-md-center small text-white">Luôn mang theo bên mình cuốn cẩm nang xử lý từ chối trong bán hàng vì rất tiện sử dụng, bỏ túi được.Cuốn cẩm nang<br> đưa ra tình huống chi tiết những hướng giải quyết thông minh,
           gợi mở cho người đọc đưa ra ý tưởng xử lý từ chối hay<br>Khi biết nguyên nhân, bản chất của lời từ chối rồi nên tự tin hơn khi giải quyết<br><br>
           <p class="text-white" style="font-size: large;">Nguyễn Duy Khánh</p>
           <p class="small" style="color: rgb(218,178,121);">Trưởng nhóm kinh doạnh tại Manulife (quản lý gần 100 nhân viên) </p>
-
         </p>
     </div>
     <img src="assets/img/aboutus-banner.png" alt="aboutus-banner">
   </div>
   <div>
-    <div style="position: relative; text-align: center; top: 250px;">
+    <div class="reader_feeling">
       <h1 class="text-md-center text-white">Cảm nhận độc giả</h1>
+      <div class="straight_line">
+        <div class="line_white"></div>
+    </div>
         <h4 style="color:rgb(218,178,121);" class="text-md-center">Cảm nhận về sản phẩm Sổ Tay Bán Hàng</h4>
         <p class="text-md-center small text-white">Luôn mang theo bên mình cuốn cẩm nang xử lý từ chối trong bán hàng vì rất tiện sử dụng, bỏ túi được.Cuốn cẩm nang<br> đưa ra tình huống chi tiết những hướng giải quyết thông minh,
           gợi mở cho người đọc đưa ra ý tưởng xử lý từ chối hay<br>Khi biết nguyên nhân, bản chất của lời từ chối rồi nên tự tin hơn khi giải quyết<br><br>
           <p class="text-white" style="font-size: large;">Nguyễn Duy Khánh</p>
           <p class="small" style="color: rgb(218,178,121);">Trưởng nhóm kinh doạnh tại Manulife (quản lý gần 100 nhân viên) </p>
-
         </p>
     </div>
     <img src="assets/img/aboutus-banner.png" alt="aboutus-banner">
   </div>
   <div>
-    <div style="position: relative; text-align: center; top: 250px;">
+    <div class="reader_feeling">
       <h1 class="text-md-center text-white">Cảm nhận độc giả</h1>
+      <div class="straight_line">
+        <div class="line_white"></div>
+    </div>
         <h4 style="color:rgb(218,178,121);" class="text-md-center">Cảm nhận về sản phẩm Sổ Tay Bán Hàng</h4>
         <p class="text-md-center small text-white">Luôn mang theo bên mình cuốn cẩm nang xử lý từ chối trong bán hàng vì rất tiện sử dụng, bỏ túi được.Cuốn cẩm nang<br> đưa ra tình huống chi tiết những hướng giải quyết thông minh,
           gợi mở cho người đọc đưa ra ý tưởng xử lý từ chối hay<br>Khi biết nguyên nhân, bản chất của lời từ chối rồi nên tự tin hơn khi giải quyết<br><br>
           <p class="text-white" style="font-size: large;">Nguyễn Duy Khánh</p>
           <p class="small" style="color: rgb(218,178,121);">Trưởng nhóm kinh doạnh tại Manulife (quản lý gần 100 nhân viên) </p>
-
         </p>
     </div>
     <img src="assets/img/aboutus-banner.png" alt="aboutus-banner">
   </div>
   <div>
-    <div style="position: relative; text-align: center; top: 250px;">
+    <div class="reader_feeling">
       <h1 class="text-md-center text-white">Cảm nhận độc giả</h1>
+      <div class="straight_line">
+        <div class="line_white"></div>
+    </div>
         <h4 style="color:rgb(218,178,121);" class="text-md-center">Cảm nhận về sản phẩm Sổ Tay Bán Hàng</h4>
         <p class="text-md-center small text-white">Luôn mang theo bên mình cuốn cẩm nang xử lý từ chối trong bán hàng vì rất tiện sử dụng, bỏ túi được.Cuốn cẩm nang<br> đưa ra tình huống chi tiết những hướng giải quyết thông minh,
           gợi mở cho người đọc đưa ra ý tưởng xử lý từ chối hay<br>Khi biết nguyên nhân, bản chất của lời từ chối rồi nên tự tin hơn khi giải quyết<br><br>
           <p class="text-white" style="font-size: large;">Nguyễn Duy Khánh</p>
           <p class="small" style="color: rgb(218,178,121);">Trưởng nhóm kinh doạnh tại Manulife (quản lý gần 100 nhân viên) </p>
-
         </p>
     </div>
     <img src="assets/img/aboutus-banner.png" alt="aboutus-banner">
   </div>
   <div>
-    <div style="position: relative; text-align: center; top: 250px;">
+    <div class="reader_feeling">
       <h1 class="text-md-center text-white">Cảm nhận độc giả</h1>
+      <div class="straight_line">
+        <div class="line_white"></div>
+    </div>
         <h4 style="color:rgb(218,178,121);" class="text-md-center">Cảm nhận về sản phẩm Sổ Tay Bán Hàng</h4>
         <p class="text-md-center small text-white">Luôn mang theo bên mình cuốn cẩm nang xử lý từ chối trong bán hàng vì rất tiện sử dụng, bỏ túi được.Cuốn cẩm nang<br> đưa ra tình huống chi tiết những hướng giải quyết thông minh,
           gợi mở cho người đọc đưa ra ý tưởng xử lý từ chối hay<br>Khi biết nguyên nhân, bản chất của lời từ chối rồi nên tự tin hơn khi giải quyết<br><br>
           <p class="text-white" style="font-size: large;">Nguyễn Duy Khánh</p>
           <p class="small" style="color: rgb(218,178,121);">Trưởng nhóm kinh doạnh tại Manulife (quản lý gần 100 nhân viên) </p>
-
         </p>
     </div>
     <img src="assets/img/aboutus-banner.png" alt="aboutus-banner">
@@ -666,46 +659,7 @@
 </div>
 
   <!--Section footer-->
-  <!-- <footer style="display: flex; align-items: center;" class=" footer-area">
-    <div class="img-footer">
-    </div>
-<div class="container">
-    <div class="row">
-        <div class="col-lg-5 col-md-6 col-sm-6">
-            <div>
-                <h6>Liên hệ</h6>
-                <p>
-                    319 chung cư Thuận Việt, Lý Thường Kiệt, Phưởng 15, Quận 11, Tp HCM, Việt Nam
-                    +84 904 456 456
-                    smartmoney@edu.com
-                </p>
-            </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-6">
-            <div>
-                <h6>Thời gian làm việc</h6>
-                <p>
-                    Thứ hai-thứ sáu / 08:00 am - 21:00 pm
-                    Thứ bảy / 09:00 - 12:00<br>
-                    Chủ nhật và ngày lễ nghỉ<br>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="row ">
-        <h6> Liên kết với chúng tôi</h6>
-        <div style="justify-content: space-between;" class="row">
-            <button type="button" class="btn btn-primary"><i class="fab fa-facebook-f pr-1"></i> Facebook</button>
-            <button type="button" class="btn btn-success"><i class="fab fa-google-plus-g pr-1"></i> Google</button>
-            <button type="button" class="btn btn-danger"><i class="fab fa-youtube pr-1"></i> Youtube</button>
-        </div>
-    </div>
-    <p>Designed and developed by Mona Media</p>
-</div>
-
-</footer> -->
-  
-<footer class="footer-area container">
+<footer class="footer-area">
 
   <div class="flex-container">
       <div class="row row--flex-footer">
