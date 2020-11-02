@@ -14,17 +14,730 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/vendor/bootstrap.css">
     <link rel="stylesheet" href="assets/css/vendor/themify-icons.css" />
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
+    <!-- Section header -->
+
+      <div class="Navbar">
+        <div class="Navbar__Link Navbar__Link-brand">
+           <a href="#"><img src="assets/img/smartmoney-logo.png" alt=""></a>
+         </div>
+        <!-- Nav bar -->
+         <div class="Navbar__Link Navbar__Link-toggle">
+           <i class="fas fa-bars"></i>
+         </div>
+       <nav class="Navbar__Items">
+         <div class="Navbar__Link">
+           <a href="#">Trang chủ</a>
+         </div>
+         <div class="Navbar__Link">
+            <a href="#">Giới thiệu</a>
+        </div>
+         <div class="Navbar__Link">
+            <a href="#">Sách</a>
+         </div>
+         <div class="Navbar__Link">
+            <a href="#">Online</a>
+         </div>
+         <div class="Navbar__Link">
+            <a href="#">Sự kiện</a>
+         </div>
+         <div class="Navbar__Link">
+            <a href="#">Liên hệ</a>
+         </div>
+       </nav>
+       <div class="link-search">
+        <!-- <a href=""><i class="fas fa-search"></i></a> -->
+        <button style="background-color: rgb(64,64,64); border: none;" type="button" id="formButton"><a href="#"><i class="fas fa-search"></i></a></button>
+        <form id="form1">
+            <input type="text" placeholder="Search...">
+        </form>
+      </div>
+     </div>
+
+    <!--Section carousel banner-->
+     <div class="banner-slide">
+         <div><img src="assets/img/banner-header.png" alt=""><h1 class="text-white text-uppercase" style="position: absolute; top: 200px; left: 190px;"><span class="font-weight-bold text-white">Khai mở trí tuệ<br>thành công</span><br>Sứ mệnh nâng tầm<br>người Việt trẻ</h1></div>
+         <div><img src="assets/img/banner-header.png" alt=""><h1 class="text-white text-uppercase" style="position: absolute; top: 200px; left: 190px;"><span class="font-weight-bold text-white">Khai mở trí tuệ<br>thành công</span><br>Sứ mệnh nâng tầm<br>người Việt trẻ</h1></div>
+         <div><img src="assets/img/banner-header.png" alt=""><h1 class="text-white text-uppercase" style="position: absolute; top: 200px; left: 190px;"><span class="font-weight-bold text-white">Khai mở trí tuệ<br>thành công</span><br>Sứ mệnh nâng tầm<br>người Việt trẻ</h1></div>
+         <div><img src="assets/img/banner-header.png" alt=""><h1 class="text-white text-uppercase" style="position: absolute; top: 200px; left: 190px;"><span class="font-weight-bold text-white">Khai mở trí tuệ<br>thành công</span><br>Sứ mệnh nâng tầm<br>người Việt trẻ</h1></div>
+         <div><img src="assets/img/banner-header.png" alt=""><h1 class="text-white text-uppercase" style="position: absolute; top: 200px; left: 190px;"><span class="font-weight-bold text-white">Khai mở trí tuệ<br>thành công</span><br>Sứ mệnh nâng tầm<br>người Việt trẻ</h1></div>
+         <div><img src="assets/img/banner-header.png" alt=""><h1 class="text-white text-uppercase" style="position: absolute; top: 200px; left: 190px;"><span class="font-weight-bold text-white">Khai mở trí tuệ<br>thành công</span><br>Sứ mệnh nâng tầm<br>người Việt trẻ</h1></div>
+     </div>
+     <!-- <button id="pause"><i class="fas fa-pause"></i></button> -->
+
+    <!--Section about us-->
+    <div class="flex-container">
+        <div class="left-block">
+            <article>
+                <h1>Về chúng tôi</h1>
+                <div class="straight_line">
+                  <div class="line_yellow"></div>
+              </div>
+            <p style="padding-top: 50px; font-weight: bold;">Lorem ipsum dolor sit emet, consecteur adip-iscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo vierra maceanas...</p>
+            <br>
+            <p style="font-size: small;">Lorem ipsum dolor sit emet, consecteur adip-iscing elit, sed do eiusmod tempor 
+              incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo vierra maceanas accumsan lacus vel facilisis
+            </p><br>
+            <button class="read-more btn">XEM THÊM</button>
+            </article>
+            
+        </div>
+        <div class="right-block">
+            <img src="assets/img/right-banner.png" alt="right-banner">
+        </div>
+    </div>
+
+    <!--Section background slider-->
+  <!-- <div style="position: relative;"  class="background-slide">
+    <div>
+      <img src="assets/img/bacground-slider.png" alt="background-slider">
+    </div>
+    <div>
+      <img src="assets/img/bacground-slider.png" alt="bkacground-slider">
+    </div>
+    <div>
+      <img src="assets/img/bacground-slider.png" alt="background-slider">
+    </div>
+    <div>
+      <img src="assets/img/bacground-slider.png" alt="background-slider">
+    </div>
+    <div>
+      <img src="assets/img/bacground-slider.png" alt="background-slider">
+    </div>
+    <div>
+      <img src="assets/img/bacground-slider.png" alt="background-slider">
+    </div>
+  </div> -->
+  
+  <!--Background slide inner content-->
+  <!-- <div class="inner-content">
+    <h1 style="padding-top: 50px; padding-right: 100px;" class="text-white">Khóa học & sự kiện</h1><br>
+    <p style="padding-right:300px;" class="text-white small">Lorem ipsum dolor sit emet, consecteur adip-iscing elit, sed do eiusmod tempor 
+      incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo vierra maceanas accumsan lacus vel facilisis</p>
+      <button class="btn__slider text-white text-uppercase btn">Mua khóa học</button>
+    </div> -->
+
+    <section class="home-courses-events">
+      <div class="courses-events">
+  
+              <img src="assets/img/bacground-slider.png">
+  
+          <div class="courses-events-content">
+              <h1>
+                  Khoá học & sự kiện
+              </h1>
+              <div class="courses-straight_line">
+                  <div class="courses-line_yellow"></div>
+              </div>
+              <div class=""></div>
+              <p>
+                  Lofem osum.dolor sit amel consectetur adipiscing elit, sest do eiusmod termpor ncididunt ut labre et dolore magia aliqua Quis ipsum Suspenseisse ultrices Saravida Risus.commndo viversa maecenas acclumsan latus vel Operatingisis.
+              </p>
+              <button type="button" class="btn btn-events-courses"> Mua khoá học</button>
+          </div>
+      </div>
+      <div class="courses-events">
+  
+          <img src="assets/img/bacground-slider.png">
+  
+          <div class="courses-events-content">
+              <h1>
+                  Khoá học & sự kiện
+              </h1>
+              <div class="courses-straight_line">
+                  <div class="courses-line_yellow"></div>
+              </div>
+              <div class=""></div>
+              <p>
+                  Lofem osum.dolor sit amel consectetur adipiscing elit, sest do eiusmod termpor ncididunt ut labre et dolore magia aliqua Quis ipsum Suspenseisse ultrices Saravida Risus.commndo viversa maecenas acclumsan latus vel Operatingisis.
+              </p>
+              <button type="button" class="btn btn-events-courses"> Mua khoá học</button>
+          </div>
+      </div>
+      <div class="courses-events">
+  
+          <img src="assets/img/bacground-slider.png">
+  
+          <div class="courses-events-content">
+              <h1>
+                  Khoá học & sự kiện
+              </h1>
+              <div class="courses-straight_line">
+                  <div class="courses-line_yellow"></div>
+              </div>
+              <div class=""></div>
+              <p>
+                  Lofem osum.dolor sit amel consectetur adipiscing elit, sest do eiusmod termpor ncididunt ut labre et dolore magia aliqua Quis ipsum Suspenseisse ultrices Saravida Risus.commndo viversa maecenas acclumsan latus vel Operatingisis.
+              </p>
+              <button type="button" class="btn btn-events-courses"> Mua khoá học</button>
+          </div>
+      </div>
+      <div class="courses-events">
+  
+          <img src="assets/img/bacground-slider.png">
+  
+          <div class="courses-events-content">
+              <h1>
+                  Khoá học & sự kiện
+              </h1>
+              <div class="courses-straight_line">
+                  <div class="courses-line_yellow"></div>
+              </div>
+              <div class=""></div>
+              <p>
+                  Lofem osum.dolor sit amel consectetur adipiscing elit, sest do eiusmod termpor ncididunt ut labre et dolore magia aliqua Quis ipsum Suspenseisse ultrices Saravida Risus.commndo viversa maecenas acclumsan latus vel Operatingisis.
+              </p>
+              <button type="button" class="btn btn-events-courses"> Mua khoá học</button>
+          </div>
+      </div>
+      <div class="courses-events">
+  
+          <img src="assets/img/bacground-slider.png">
+  
+          <div class="courses-events-content">
+              <h1>
+                  Khoá học & sự kiện
+              </h1>
+              <div class="courses-straight_line">
+                  <div class="courses-line_yellow"></div>
+              </div>
+              <div class=""></div>
+              <p>
+                  Lofem osum.dolor sit amel consectetur adipiscing elit, sest do eiusmod termpor ncididunt ut labre et dolore magia aliqua Quis ipsum Suspenseisse ultrices Saravida Risus.commndo viversa maecenas acclumsan latus vel Operatingisis.
+              </p>
+              <button type="button" class="btn btn-events-courses"> Mua khoá học</button>
+          </div>
+      </div>
+      <div class="courses-events">
+  
+          <img src="assets/img/bacground-slider.png">
+  
+          <div class="courses-events-content">
+              <h1>
+                  Khoá học & sự kiện
+              </h1>
+              <div class="courses-straight_line">
+                  <div class="courses-line_yellow"></div>
+              </div>
+              <div class=""></div>
+              <p>
+                  Lofem osum.dolor sit amel consectetur adipiscing elit, sest do eiusmod termpor ncididunt ut labre et dolore magia aliqua Quis ipsum Suspenseisse ultrices Saravida Risus.commndo viversa maecenas acclumsan latus vel Operatingisis.
+              </p>
+              <button type="button" class="btn btn-events-courses"> Mua khoá học</button>
+          </div>
+      </div>
+  </section>
+  
+
+  <!--Book slider-->
+  <!-- <div class="book__showcase">
+        <h1>Sách</h1>
+    <div class="book__slider" style=" display:flex; justify-content: space-around;">
+      <div style="width: 25%;">
+        <img style="width: fit-content; padding-left: 50px;"  src="assets/img/book-1.jpg" alt="book-1">
+      </div>
+      <div style="width: 25%;">
+        <img style="width: fit-content;" src="assets/img/book-2.png" alt="book-2">
+      
+      </div>
+      <div style="width: 25%;">
+        <img style=" padding-bottom: 50px;"   src="assets/img//book-3.png" alt="book-3">
+ 
+      </div>
+      <div style="width: 25%;">
+        <img src="assets/img/book-4.png" alt="book-4">
+      </div>
+    </div>
+  <div> -->
+     <!-- <div class="pause">
+      <i style="color: orange; font-size: 12px;" class="fa fa-pause"></i>
+     </div> -->
+  </div>
+  </div>
+  <section class="home-book">
+    <div class="flex-box-container book__showcase">
+      <h1>Sách</h1>
+
+      <div class="book-box">
+          <div class="book-item-wrap">
+              <h3 class="book-item-new text-uppercase">new</h3>
+              <img src="assets/img/book-1.jpg" class="style-book1">
+          </div>
+          <h6>Lập trình ngôn ngữ tư duy</h6>
+          <p>120,000<sup>đ</sup></p>
+          <button type="button" class="btn btn-buy">Mua ngay</button>
+      </div>
+      <div class="book-box">
+      <img src="assets/img/book-2.png" class="style-book1">
+          <h6>Lập trình ngôn ngữ tư duy</h6>
+          <p>120,000<sup>đ</sup></p>
+          <button type="button" class="btn btn-buy">Mua ngay</button>
+      </div>
+      <div class="book-box">
+        <div class="book-item-wrap">
+            <h3 class="book-item-new text-uppercase">new</h3>
+            <img src="assets/img/book-3.png">
+        </div>
+          <h6>Lập trình ngôn ngữ tư duy</h6>
+          <p>120,000<sup>đ</sup></p>
+          <button type="button" class="btn btn-buy">Mua ngay</button>
+      </div>
+      <div class="book-box">
+          <img src="assets/img/book-4.png">
+          <h6>Lập trình ngôn ngữ tư duy</h6>
+          <p>120,000<sup>đ</sup></p>
+          <button type="button" class="btn btn-buy">Mua ngay</button>
+      </div>
+  </div>
+ </section> 
+
+<!--Section course menu bar-->
+<!-- <div class="course__bar">
+  <div>
+    <img src="assets/img/icon-khoahoc.png" alt="icon-khoahoc">
+    <p class="text-white">Khóa học</p>
+  </div>
+  <div>
+    <img src="assets/img/icon-video.png" alt="icon-video">
+    <p class="text-white">Videos</p>
+  </div>
+  <div>
+    <img src="assets/img/icon-audio.png" alt="icon-audio">
+    <p class="text-white">Audios</p>
+  </div>
+  <div>
+    <img src="assets/img/icon-ebook.png" alt="icon-ebook">
+    <p  class="text-white">Ebooks</p>
+  </div>
+</div> -->
+
+<div class="nav-course-online">
+  <div class="container">
+      <div class="flex-box-container">
+          <div class="box-course-icon">
+              <img src="assets/img/icon-khoahoc.png">
+              <p>Khoá học</p>
+          </div>
+          <div class="box-course-icon">
+              <img src="assets/img/icon-video.png">
+              <p>Videos</p>
+          </div>
+          <div class="box-course-icon">
+              <img src="assets/img/icon-audio.png">
+              <p>Audios</p>
+          </div>
+          <div class="box-course-icon">
+              <img src="assets/img/icon-ebook.png">
+              <p>Ebook</p>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!--Section courses-->
+<div style="background-color: rgb(248,248,248);">
+  <div class="list-courses-online container">
+    <div class="flex-courses-wrap">
+        <h1>Khoá học online</h1>
+
+        <div class="flex-courses-item">
+            <button type="button" class="btn btn-action"><i class="fas fa-eye"></i> Xem nhiều nhất</button>
+            <button type="button" class="btn btn-option"><i class="fa fa-bookmark"></i> Mới nhất</button>
+            <button type="button" class="btn btn-option"><i class="fa fa-thumbs-up"></i> Được quan tâm</button>
+            <button type="button" class="btn btn-option"><i class="fa fa-tag"></i> Miễn phí</button>
+        </div>
+    </div>
     
-    <script src="assets/js/vendor/jquery-3.4.1.min.js"></script>
-    <script src="assets/js/vendor/bootstrap.min.js"></script>
-    <script src="assets/js/main.js"></script>
+    <div class="line-book">
+      <div class="line-yellow"></div>
+  </div>
+  
+  <div class="flexbox__wrapper">
+    <div>
+      <img src="assets/img/flex-1.png" alt="flex-1">
+        <div class="card__box">
+          <span class="fa fa-star checked small"></span>
+          <span class="fa fa-star checked small"></span>
+          <span class="fa fa-star checked small"></span>
+          <span class="fa fa-star checked small"></span>
+          <span class="fa fa-star small"></span>
+          <p class="text-muted small">Những Mô Thức Đột Phá Thành<br>Công-Hạnh Phúc</p><p class="font-weight-bold small">600,000<sup>đ</sup></p>
+          <img src="assets/img/avatar-1.png" alt="avatar-1">&nbsp;<span class="font-weight-bold small">Phuong Nguyen</span>&nbsp;&nbsp;
+          <i class="fas fa-user text-muted small">&nbsp;<span class="text-muted">12,340</span></i>&nbsp;&nbsp;
+          <i class="fas fa-heart text-muted small">&nbsp;<span class="text-muted">123</span></i>
+        </div>
+    </div>
+    <div>
+      <img src="assets/img/flex-2.png" alt="flex-2"><br>
+      <div class="card__box">
+        <span class="fa fa-star checked small"></span>
+        <span class="fa fa-star checked small"></span>
+        <span class="fa fa-star checked small"></span>
+        <span class="fa fa-star checked small"></span>
+        <span class="fa fa-star small"></span>
+        <p class="text-muted small">Những Mô Thức Đột Phá Thành<br>Công-Hạnh Phúc</p><p class="font-weight-bold small">600,000<sup>đ</sup></p>
+        <img src="assets/img/avatar-1.png" alt="avatar-1">&nbsp;<span class="font-weight-bold small">Phuong Nguyen</span>&nbsp;&nbsp;
+        <i class="fas fa-user text-muted small">&nbsp;<span class="text-muted">12,340</span></i>&nbsp;&nbsp;
+        <i class="fas fa-heart text-muted small">&nbsp;<span class="text-muted">123</span></i>
+      </div>
+  </div>
+    <div>
+      <img src="assets/img/flex-3.png" alt="flex-3"><br>
+      <div class="card__box">
+        <span class="fa fa-star checked small"></span>
+        <span class="fa fa-star checked small"></span>
+        <span class="fa fa-star checked small"></span>
+        <span class="fa fa-star checked small"></span>
+        <span class="fa fa-star small"></span>
+        <p class="text-muted small">Những Mô Thức Đột Phá Thành<br>Công-Hạnh Phúc</p><p class="font-weight-bold small">600,000<sup>đ</sup></p>
+        <img src="assets/img/avatar-1.png" alt="avatar-1">&nbsp;<span class="font-weight-bold small">Phuong Nguyen</span>&nbsp;&nbsp;
+        <i class="fas fa-user text-muted small">&nbsp;<span class="text-muted">12,340</span></i>&nbsp;&nbsp;
+        <i class="fas fa-heart text-muted small">&nbsp;<span class="text-muted">123</span></i>
+      </div>
+  </div>
+    <div>
+      <img src="assets/img/flex-4.png" alt="flex-4"><br>
+      <div class="card__box">
+        <span class="fa fa-star checked small"></span>
+        <span class="fa fa-star checked small"></span>
+        <span class="fa fa-star checked small"></span>
+        <span class="fa fa-star checked small"></span>
+        <span class="fa fa-star small"></span>
+        <p class="text-muted small">Những Mô Thức Đột Phá Thành<br>Công-Hạnh Phúc</p><p class="font-weight-bold small">600,000<sup>đ</sup></p>
+        <img src="assets/img/avatar-1.png" alt="avatar-1">&nbsp;<span class="font-weight-bold small">Phuong Nguyen</span>&nbsp;&nbsp;
+        <i class="fas fa-user text-muted small">&nbsp;<span class="text-muted">12,340</span></i>&nbsp;&nbsp;
+        <i class="fas fa-heart text-muted small">&nbsp;<span class="text-muted">123</span></i>
+      </div>
+  </div>
+
+    <div class="break"></div> <!--Breaker-->
+
+    <div>
+      <img src="assets/img/flex-1-null.png" alt=""><br>
+      <div class="card__box">
+        <span class="fa fa-star checked small"></span>
+        <span class="fa fa-star checked small"></span>
+        <span class="fa fa-star checked small"></span>
+        <span class="fa fa-star checked small"></span>
+        <span class="fa fa-star small"></span>
+        <p class="text-muted small">Những Mô Thức Đột Phá Thành<br>Công-Hạnh Phúc</p><p class="font-weight-bold small">600,000<sup>đ</sup></p>
+        <img src="assets/img/avatar-1.png" alt="avatar-1">&nbsp;<span class="font-weight-bold small">Phuong Nguyen</span>&nbsp;&nbsp;
+        <i class="fas fa-user text-muted small">&nbsp;<span class="text-muted">12,340</span></i>&nbsp;&nbsp;
+        <i class="fas fa-heart text-muted small">&nbsp;<span class="text-muted">123</span></i>
+      </div>
+  </div>
+    <div>
+      <img src="assets/img/flex-2.png" alt=""><br>
+      <div class="card__box">
+        <span class="fa fa-star checked small"></span>
+        <span class="fa fa-star checked small"></span>
+        <span class="fa fa-star checked small"></span>
+        <span class="fa fa-star checked small"></span>
+        <span class="fa fa-star small"></span>
+        <p class="text-muted small">Những Mô Thức Đột Phá Thành<br>Công-Hạnh Phúc</p><p class="font-weight-bold small">600,000<sup>đ</sup></p>
+        <img src="assets/img/avatar-1.png" alt="avatar-1">&nbsp;<span class="font-weight-bold small">Phuong Nguyen</span>&nbsp;&nbsp;
+        <i class="fas fa-user text-muted small">&nbsp;<span class="text-muted">12,340</span></i>&nbsp;&nbsp;
+        <i class="fas fa-heart text-muted small">&nbsp;<span class="text-muted">123</span></i>
+      </div>
+  </div>
+    <div>
+      <img src="assets/img/flex-3-null.png" alt=""><br>
+      <div class="card__box">
+        <span class="fa fa-star checked small"></span>
+        <span class="fa fa-star checked small"></span>
+        <span class="fa fa-star checked small"></span>
+        <span class="fa fa-star checked small"></span>
+        <span class="fa fa-star small"></span>
+        <p class="text-muted small">Những Mô Thức Đột Phá Thành<br>Công-Hạnh Phúc</p><p class="font-weight-bold small">600,000<sup>đ</sup></p>
+        <img src="assets/img/avatar-1.png" alt="avatar-1">&nbsp;<span class="font-weight-bold small">Phuong Nguyen</span>&nbsp;&nbsp;
+        <i class="fas fa-user text-muted small">&nbsp;<span class="text-muted">12,340</span></i>&nbsp;&nbsp;
+        <i class="fas fa-heart text-muted small">&nbsp;<span class="text-muted">123</span></i>
+      </div>
+  </div>
+    <div>
+      <img src="assets/img/flex-4.png" alt=""><br>
+      <div class="carrd__box">
+        <span class="fa fa-star checked small"></span>
+        <span class="fa fa-star checked small"></span>
+        <span class="fa fa-star checked small"></span>
+        <span class="fa fa-star checked small"></span>
+        <span class="fa fa-star small"></span>
+        <p class="text-muted small">Những Mô Thức Đột Phá Thành<br>Công-Hạnh Phúc</p><p class="font-weight-bold small">600,000<sup>đ</sup></p>
+        <img src="assets/img/avatar-1.png" alt="avatar-1">&nbsp;<span class="font-weight-bold small">Phuong Nguyen</span>&nbsp;&nbsp;
+        <i class="fas fa-user text-muted small">&nbsp;<span class="text-muted">12,340</span></i>&nbsp;&nbsp;
+        <i class="fas fa-heart text-muted small">&nbsp;<span class="text-muted">123</span></i>
+      </div>
+  </div>
+  </div>
+</div>
+<!-- <div style="float: right;">
+  <a style="color: black;" href="#">Xem tất cả</a><i class="fas fa-angle-right"></i>
+</div> -->
+
+<!--Section event-->
+<div class="event">
+  <div class="left-banner"><img src="assets/img/timeline-banner.png" alt="timeline-banner"></div>
+  <div style="padding-left: 70px;" class="right-event">
+    <div style="display: flex; flex-direction: column; align-self: center;" class="card__event">
+      <h1>Sự kiện offline</h1>
+
+      <div class="text-event">
+        <span style="font-size: large;"><span style="color: rgb(218,178,121); border-bottom: solid 2px rgb(225,225,225); padding-bottom: 5px;">15</span><br><span style="color: grey;">08</span>&nbsp;<span style="border:none; background-color: rgb(218,178,121);border-style: solid; color: white;border-width: 10px;" class="badge font-weight-bold">Free</span><span class="text-muted font-italic">từ 9:00 đến 12:00</span>
+
+        <h5>Advertisers Embrace Rich Media Format</h5>
+        <p class="text-muted small">
+          Lorem ipsum dolor sit amet, consecteur adipiscing elit, sed do euismod tempor indidunt ut laboreet dolore magna aliqua.Quis ipsum suspendisse ultrices
+          gravida.Risus commodo...
+        </p>
+        <a style="color: black;" href="#" class="font-weight-bold text-uppercase small">Đăng ký tham gia&nbsp;<i class="fa fa-angle-right"></i></a>  
+      </div>
+      
+      <br>
+
+      <div  class="text-event">
+        <span style="font-size: large;"><span style="color: rgb(218,178,121); border-bottom: solid 2px rgb(225,225,225); padding-bottom: 5px;">15</span><br><span style="color: grey;">08</span>&nbsp;<span style="border:none; background-color: rgb(218,178,121);border-style: solid; color: white;border-width: 10px;" class="badge font-weight-bold">Free</span><span class="text-muted font-italic">từ 9:00 đến 12:00</span>
+
+        <h5>Advertisers Embrace Rich Media Format</h5>
+        <p class="text-muted small">
+          Lorem ipsum dolor sit amet, consecteur adipiscing elit, sed do euismod tempor indidunt ut laboreet dolore magna aliqua.Quis ipsum suspendisse ultrices
+          gravida.Risus commodo...
+        </p>
+        <a style="color: black;" href="#" class=" font-weight-bold text-uppercase small">Đăng ký tham gia&nbsp;<i class="fa fa-angle-right"></i></a>  
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Section news-->
+<div style="padding-bottom: 110px;">
+  <h1>Tin tức</h1>
+  <div class="news">
+    <div>
+      <div style="display: flex; align-items: center; justify-content: center;" class="card__news">
+        <div style="padding-right: 30px;">
+          <img src="assets/img/news-pic1.png" alt="news-pic1">
+          <div style="display:flex;">
+            <div>
+              <span style="color: rgb(218,178,121); border-bottom: solid 2px rgb(225,225,225); padding-bottom: 5px;">15</span><br><span style="color: grey;">08</span>
+            </div>
+            <div >
+              <h5 class="title__news">Advertisers Embrace <br> Rich Media format</h5>
+              <p class="text-muted">Lorem ipsum dolor sit emet,<br> consecteur adip-iscing elit, <br> sed do eiusmod tempor <br>
+              incididunt ut labore</p>
+            <a href="#" class="more-detail" style="color: orange;">Xem chi tiết</a>
+            </div>
+          </div>
+        </div>
+
+        <div style="padding-right: 30px;">
+          <img src="assets/img/news-pic2.png" alt="news-pic1">
+          <div style="display:flex;">
+            <div>
+              <span style="color: rgb(218,178,121); border-bottom: solid 2px rgb(225,225,225); padding-bottom: 5px;">15</span><br><span style="color: grey;">08</span>
+            </div>
+            <div >
+              <h5 class="title__news">Advertisers Embrace <br> Rich Media format</h5>
+              <p class="text-muted">Lorem ipsum dolor sit emet,<br> consecteur adip-iscing elit, <br> sed do eiusmod tempor <br>
+              incididunt ut labore</p>
+            <a href="#" class="more-detail" style="color: orange;">Xem chi tiết</a>
+            </div>
+          </div>
+        </div>
+
+        <div style="padding-right: 30px;">
+          <img src="assets/img/news-pic3.png" alt="news-pic1">
+          <div style="display:flex;">
+            <div>
+              <span style="color: rgb(218,178,121); border-bottom: solid 2px rgb(225,225,225); padding-bottom: 5px;">15</span><br><span style="color: grey;">08</span>
+            </div>
+            <div >
+              <h5 class="title__news">Advertisers Embrace <br> Rich Media format</h5>
+              <p class="text-muted">Lorem ipsum dolor sit emet,<br> consecteur adip-iscing elit, <br> sed do eiusmod tempor <br>
+              incididunt ut labore</p>
+            <a href="#" class="more-detail" style="color: orange;">Xem chi tiết</a>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <img src="assets/img/news-pic4.png" alt="news-pic1">
+          <div style="display:flex;">
+            <div>
+              <span style="color: rgb(218,178,121); border-bottom: solid 2px rgb(225,225,225); padding-bottom: 5px;">15</span><br><span style="color: grey;">08</span>
+            </div>
+            <div >
+              <h5 class="title__news">Advertisers Embrace <br> Rich Media format</h5>
+              <p class="text-muted">Lorem ipsum dolor sit emet,<br> consecteur adip-iscing elit, <br> sed do eiusmod tempor <br>
+              incididunt ut labore</p>
+            <a href="#" class="more-detail" style="color: orange;">Xem chi tiết</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Section emotion reader-->
+<!-- <div class="emotion__slide">
+  <div>
+    <img src="assets/img/aboutus-banner.png" alt="aboutus-banner">
+    <div style="position: relative; text-align: center; bottom: 350px;">
+      <h1 class="text-md-center text-white" style="padding-bottom: 10px;">Cảm nhận độc giả</h1>
+        <h4 style="color:rgb(218,178,121);" class="text-md-center">Cảm nhận về sản phẩm Sổ Tay Bán Hàng</h4>
+        <p class="text-md-center small text-white">Luôn mang theo bên mình cuốn cẩm nang xử lý từ chối trong bán hàng vì rất tiện sử dụng, bỏ túi được.Cuốn cẩm nang<br> đưa ra tình huống chi tiết những hướng giải quyết thông minh,
+          gợi mở cho người đọc đưa ra ý tưởng xử lý từ chối hay<br>Khi biết nguyên nhân, bản chất của lời từ chối rồi nên tự tin hơn khi giải quyết<br><br>
+          <p class="text-white" style="font-size: large;">Nguyễn Duy Khánh</p>
+        </p>
+    </div>
+  </div>
+  <div>
+    <img src="assets/img/aboutus-banner.png" alt="aboutus-banner">
+    <div style="position: absolute; text-align: center; top: 7800px; bottom: 0; left: 0; margin: auto; ">
+      <h1 class="text-md-center text-white" style="padding-bottom: 10px;">Cảm nhận độc giả</h1>
+        <h4 style="color:rgb(218,178,121);" class="text-md-center">Cảm nhận về sản phẩm Sổ Tay Bán Hàng</h4>
+        <p class="text-md-center small text-white">Luôn mang theo bên mình cuốn cẩm nang xử lý từ chối trong bán hàng vì rất tiện sử dụng, bỏ túi được.Cuốn cẩm nang<br> đưa ra tình huống chi tiết những hướng giải quyết thông minh,
+          gợi mở cho người đọc đưa ra ý tưởng xử lý từ chối hay<br>Khi biết nguyên nhân, bản chất của lời từ chối rồi nên tự tin hơn khi giải quyết<br><br>
+          <p class="text-white" style="font-size: large;">Nguyễn Duy Khánh</p>
+        </p>
+    </div>
+  </div>
+  <div>
+    <img src="assets/img/aboutus-banner.png" alt="aboutus-banner">
+    <div style="position: absolute; text-align: center; top: 7800px; right: 0; bottom: 0; left: 0; margin: auto; ">
+      <h1 class="text-md-center text-white" style="padding-bottom: 10px;">Cảm nhận độc giả</h1>
+        <h4 style="color:rgb(218,178,121);" class="text-md-center">Cảm nhận về sản phẩm Sổ Tay Bán Hàng</h4>
+        <p class="text-md-center small text-white">Luôn mang theo bên mình cuốn cẩm nang xử lý từ chối trong bán hàng vì rất tiện sử dụng, bỏ túi được.Cuốn cẩm nang<br> đưa ra tình huống chi tiết những hướng giải quyết thông minh,
+          gợi mở cho người đọc đưa ra ý tưởng xử lý từ chối hay<br>Khi biết nguyên nhân, bản chất của lời từ chối rồi nên tự tin hơn khi giải quyết<br><br>
+          <p class="text-white" style="font-size: large;">Nguyễn Duy Khánh</p>
+        </p>
+    </div>
+  </div>
+  <div>
+    <img src="assets/img/aboutus-banner.png" alt="aboutus-banner">
+    <div style="position: absolute; text-align: center; top: 7800px; right: 0; bottom: 0; left: 0; margin: auto; ">
+      <h1 class="text-md-center text-white" style="padding-bottom: 10px;">Cảm nhận độc giả</h1>
+        <h4 style="color:rgb(218,178,121);" class="text-md-center">Cảm nhận về sản phẩm Sổ Tay Bán Hàng</h4>
+        <p class="text-md-center small text-white">Luôn mang theo bên mình cuốn cẩm nang xử lý từ chối trong bán hàng vì rất tiện sử dụng, bỏ túi được.Cuốn cẩm nang<br> đưa ra tình huống chi tiết những hướng giải quyết thông minh,
+          gợi mở cho người đọc đưa ra ý tưởng xử lý từ chối hay<br>Khi biết nguyên nhân, bản chất của lời từ chối rồi nên tự tin hơn khi giải quyết<br><br>
+          <p class="text-white" style="font-size: large;">Nguyễn Duy Khánh</p>
+        </p>
+    </div>
+  </div>
+  <div>
+    <img src="assets/img/aboutus-banner.png" alt="aboutus-banner">
+    <div style="position: absolute; text-align: center; top: 7800px; right: 0; bottom: 0; left: 0; margin: auto; ">
+      <h1 class="text-md-center text-white" style="padding-bottom: 10px;">Cảm nhận độc giả</h1>
+        <h4 style="color:rgb(218,178,121);" class="text-md-center">Cảm nhận về sản phẩm Sổ Tay Bán Hàng</h4>
+        <p class="text-md-center small text-white">Luôn mang theo bên mình cuốn cẩm nang xử lý từ chối trong bán hàng vì rất tiện sử dụng, bỏ túi được.Cuốn cẩm nang<br> đưa ra tình huống chi tiết những hướng giải quyết thông minh,
+          gợi mở cho người đọc đưa ra ý tưởng xử lý từ chối hay<br>Khi biết nguyên nhân, bản chất của lời từ chối rồi nên tự tin hơn khi giải quyết<br><br>
+          <p class="text-white" style="font-size: large;">Nguyễn Duy Khánh</p>
+        </p>
+    </div>
+  </div>
+  <div>
+    <img src="assets/img/aboutus-banner.png" alt="aboutus-banner">
+    <div style="position: absolute; text-align: center; top: 7800px; right: 0; bottom: 0; left: 0; margin: auto; ">
+      <h1 class="text-md-center text-white" style="padding-bottom: 10px;">Cảm nhận độc giả</h1>
+        <h4 style="color:rgb(218,178,121);" class="text-md-center">Cảm nhận về sản phẩm Sổ Tay Bán Hàng</h4>
+        <p class="text-md-center small text-white">Luôn mang theo bên mình cuốn cẩm nang xử lý từ chối trong bán hàng vì rất tiện sử dụng, bỏ túi được.Cuốn cẩm nang<br> đưa ra tình huống chi tiết những hướng giải quyết thông minh,
+          gợi mở cho người đọc đưa ra ý tưởng xử lý từ chối hay<br>Khi biết nguyên nhân, bản chất của lời từ chối rồi nên tự tin hơn khi giải quyết<br><br>
+          <p class="text-white" style="font-size: large;">Nguyễn Duy Khánh</p>
+        </p>
+    </div>
+  </div>
+</div> -->
+
+  <!--Section footer-->
+  <!-- <footer style="display: flex; align-items: center;" class=" footer-area">
+    <div class="img-footer">
+    </div>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-5 col-md-6 col-sm-6">
+            <div>
+                <h6>Liên hệ</h6>
+                <p>
+                    319 chung cư Thuận Việt, Lý Thường Kiệt, Phưởng 15, Quận 11, Tp HCM, Việt Nam
+                    +84 904 456 456
+                    smartmoney@edu.com
+                </p>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6">
+            <div>
+                <h6>Thời gian làm việc</h6>
+                <p>
+                    Thứ hai-thứ sáu / 08:00 am - 21:00 pm
+                    Thứ bảy / 09:00 - 12:00<br>
+                    Chủ nhật và ngày lễ nghỉ<br>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row ">
+        <h6> Liên kết với chúng tôi</h6>
+        <div style="justify-content: space-between;" class="row">
+            <button type="button" class="btn btn-primary"><i class="fab fa-facebook-f pr-1"></i> Facebook</button>
+            <button type="button" class="btn btn-success"><i class="fab fa-google-plus-g pr-1"></i> Google</button>
+            <button type="button" class="btn btn-danger"><i class="fab fa-youtube pr-1"></i> Youtube</button>
+        </div>
+    </div>
+    <p>Designed and developed by Mona Media</p>
+</div>
+
+</footer> -->
+  
+<footer class="footer-area container">
+
+  <div class="flex-container">
+      <div class="row row--flex-footer">
+          <div class="col-lg-5">
+              <h6>Liên hệ</h6>
+              <p>
+                  319 chung cư Thuận Việt, Lý Thường Kiệt, phường 15, Quận 11, Tp HCM, Việt Nam<br>
+                  +84 904 456 456 <br>
+                  smartmoney@edu.com
+              </p>
+          </div>
+          <div class="col-lg-4">
+              <h6>Thời gian làm việc</h6>
+              <p>
+                  Thứ hai-thứ sáu / 08:00 am - 21:00 pm<br>
+                  Thứ bảy / 09:00 - 12:00<br>
+                  Chủ nhật và ngày lễ nghỉ
+              </p>
+          </div>
+      </div>
+      <div class="row row--flex-social">
+          <h6> Liên kết với chúng tôi</h6>
+          <div class="row row--flex-button">
+              <button type="button" class="btn btn-facebook"><i class="fab fa-facebook-f pr-1"></i> Facebook</button>
+              <button type="button" class="btn btn-google"><i class="fab fa-google-plus-g pr-1"></i> Google</button>
+              <button type="button" class="btn btn-youtube"><i class="fab fa-youtube pr-1"></i> Youtube</button>
+
+          </div>
+      </div>
+      <p class="paragraph">Designed and developed by Mona Media</p>
+
+  </div>
+
+</footer>
+     <script src="assets/js/vendor/jquery-3.4.1.min.js"></script>
+     <script type="text/javascript" src="slick/slick.min.js"></script>
+     <script src="assets/js/vendor/bootstrap.min.js"></script>
+     <script src="assets/js/main.js"></script> 
 </body>
 </html>
 
